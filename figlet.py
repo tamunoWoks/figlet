@@ -23,3 +23,5 @@ else:
 
 prompt = input('Input: ').strip()
 output = figlet.renderText(prompt)
+
+print(f'Output: {output}')

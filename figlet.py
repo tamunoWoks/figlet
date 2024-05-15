@@ -17,3 +17,6 @@ elif len(sys.argv) == 3:
         figlet.setFont(font=sys.argv[2])
     else:
         sys.exit('Invalid usage')
+
+else:
+    sys.exit('Invalid usage')

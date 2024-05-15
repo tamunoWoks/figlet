@@ -20,3 +20,6 @@ elif len(sys.argv) == 3:
 
 else:
     sys.exit('Invalid usage')
+
+prompt = input('Input: ').strip()
+output = figlet.renderText(prompt)
